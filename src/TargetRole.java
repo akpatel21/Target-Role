@@ -1,7 +1,7 @@
 /**
  * 
  * @author Akul Patel
- * Target Rol
+ * Target Roll
  *
  */
 import java.util.Random; 
