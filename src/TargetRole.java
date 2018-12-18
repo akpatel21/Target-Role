@@ -34,7 +34,7 @@ public class TargetRole {
         { 
             System.out.print("\nPlease hit enter to roll again."); 
             scan.nextLine(); 
-            die = rand.nextInt(5) + 1; 
+            die = rand.nextInt(6) + 1; 
             System.out.print("You rolled: " + die); 
             rolls++; 
         } 
