@@ -19,7 +19,7 @@ public class TargetRole {
         System.out.print("Please enter a number between 1 and 6: "); 
         Integer num = scan.nextInt(); 
 
-        while(!(num>=1 && num<=6)) 
+        while(!(num >= 1 && num <= 6)) 
         {
             System.out.print("Please enter a number between 1 and 6: "); 
             num = scan.nextInt(); 
@@ -30,7 +30,7 @@ public class TargetRole {
         Integer rolls = 1; 
         scan.nextLine(); 
 
-        while(num!=die) 
+        while(num != die) 
         { 
             System.out.print("\nPlease hit enter to roll again."); 
             scan.nextLine(); 
